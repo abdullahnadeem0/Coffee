@@ -1,0 +1,28 @@
+
+.home-head{
+    width: 100%;
+    height: 280px;
+    background-color: var(--dark);
+    
+}
+.Location-div{
+    display: flex;
+    flex-direction: column;
+    padding-top:40px ;
+    margin-left: 10px;
+}
+.Location-name{
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--secondary);
+}
+.Location{
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+}
+.Location-icon{
+    margin-left: 5px;
+    cursor: pointer;
+    font-weight: 400;
+}

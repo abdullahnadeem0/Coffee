@@ -12,8 +12,11 @@ const Landing = () => {
    <div className="landing-contant">
     <h1 className="landing-heading">Fall in Love with <br/>Coffee in Blissful<br/> Delight!</h1>
     <p className="landing-para">   Welcome to our cozy coffee corner, where <br/>every cup is a delightful for you. </p>
-      <button className="landing-btn"> Get Started </button>
-   </div>
+<a href="/home">
+  <button className="landing-btn">
+    Get Started
+  </button>
+</a>   </div>
    </div>
     </>
   );

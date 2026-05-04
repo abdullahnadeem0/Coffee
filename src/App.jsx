@@ -1,14 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
     <Router>
       <Routes>
 
-        {/* "/" = landing page */}
         <Route path="/" element={<Landing />} />
+        <Route path="/home" element={<Home/>} />
 
       </Routes>
     </Router>
