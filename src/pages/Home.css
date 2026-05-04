@@ -20,9 +20,70 @@
     font-weight: 500;
     font-size: 14px;
     display: flex;
+    margin-top: 5px;
 }
 .Location-icon{
     margin-left: 5px;
     cursor: pointer;
     font-weight: 400;
+}
+.serach-bar{
+    background-color: #2A2A2A;
+    width: 259px;
+    height: 52px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 30px;
+    align-items: center;
+}
+.serach-btn-home{
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 128, 0);
+    color: var(--white);
+    margin-left: 15px;
+    margin-top: 2px;
+
+    font-size:25px ;
+}
+.serach-bar input{
+ background:none ;
+ outline: none;
+    font-size:19px ;
+    margin-left: 10px;
+
+ border: none;
+}
+.home-search-contaner{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.adjast-icon{
+    width: 52px;
+    height: 52px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: var(--primary);
+    font-size: 32px;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 30px;
+
+
+}
+.Buy-one-get{
+    width: 327px;
+    height: 140px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    margin-top:50px ;
+    margin-left: 30px;
 }
