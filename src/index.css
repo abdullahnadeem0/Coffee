@@ -1,7 +1,19 @@
-
+*{
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
 :root {
   --primary: #C67C4E;
   --secondary: #A2A2A2;
   --white: #FFFFFF;
   --dark: #313131;
+}
+body {
+  width: 100%;
+  max-width: 420px;   /* mobile width */
+  height: 100vh;
+  /* background: rgb(0, 0, 0); */
+  overflow-x: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
 }
