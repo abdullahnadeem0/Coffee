@@ -36,7 +36,7 @@ const Detail = () => {
                  <hr className='Detali-line' />
 
                  <h2 className='Description-titel'>Description</h2>
-                  <p className='Description-para'>A cappuccino is an approximately 150 ml (5 oz)<br/> beverage, with 25 ml of espresso coffee and<br/> 85ml of fresh milk the fo..  <span className='bold-active'>Read More</span> </p>
+                  <p className='Description-para'>A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and<br/> 85ml of fresh milk the fo..  <span className='bold-active'>Read More</span> </p>
          
                      <div className='Size'>
                          <h2 className='Size-titel'> Size</h2>
