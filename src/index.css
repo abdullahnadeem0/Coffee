@@ -5,6 +5,9 @@
       box-sizing: border-box;
 
 }
+* {
+  -webkit-tap-highlight-color: transparent;
+}
 :root {
   --primary: #C67C4E;
   --secondary: #A2A2A2;
@@ -13,7 +16,7 @@
 }
 body {
   width: 100%;
-  max-width: 420px;   /* mobile width */
+  max-width: 420px;   
   height: 100vh;
   background: #F9F9F9;
   overflow-x: hidden;
