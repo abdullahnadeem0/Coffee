@@ -76,7 +76,7 @@
      font-size: 14px;
      font-size: 500;
      color: var(--secondary);
-     line-height: 24px;
+     /* line-height: 24px; */
 }
 .bold-active{
     font-weight: bold;
