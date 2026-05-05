@@ -4,8 +4,9 @@ import "./Home.css"
 import { FaAngleDown } from "react-icons/fa";
 import { CiSearch } from "react-icons/ci";
 import img3 from "../imgs/Banner 1.png"
-import img4 from "../imgs/Image & Rating (1).png"
+import img4 from "../imgs/2.png"
 import { HiOutlineAdjustmentsHorizontal } from "react-icons/hi2";
+import { FaStar } from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -42,16 +43,285 @@ const Home = () => {
 
         <div className='prodet-all-div'>
             <div className='prodet-card'>
-                
+
+                 <div className='prodet-card-img'>
                 <img src={img4} alt="" />
+                <div className='reating-div'>
+                   
+                    <div className='reating-div-contant'>
+
+
+                         <span className='active-icon'> <FaStar /></span> <h3 className='reating-number'> 4.8</h3> 
+                    </div>
+                </div>
+
+                 </div>
+                
                 <h2 className='prodet-card-heading'>Caffe Mocha</h2>
                 <p className='prodet-card-datial'>Deep Foam</p>
                 <div className='price-cart-div'> <h2>$ 4.53</h2> <button>+</button></div>
 
                 </div>
-            <div className='prodet-card'></div>
-            <div className='prodet-card'></div>
-            <div className='prodet-card'></div>
+             
+              <div className='prodet-card'>
+
+                 <div className='prodet-card-img'>
+                <img src={img4} alt="" />
+                <div className='reating-div'>
+                   
+                    <div className='reating-div-contant'>
+
+
+                         <span className='active-icon'> <FaStar /></span> <h3 className='reating-number'> 4.8</h3> 
+                    </div>
+                </div>
+
+                 </div>
+                
+                <h2 className='prodet-card-heading'>Caffe Mocha</h2>
+                <p className='prodet-card-datial'>Deep Foam</p>
+                <div className='price-cart-div'> <h2>$ 4.53</h2> <button>+</button></div>
+
+                </div>
+                 <div className='prodet-card'>
+
+                 <div className='prodet-card-img'>
+                <img src={img4} alt="" />
+                <div className='reating-div'>
+                   
+                    <div className='reating-div-contant'>
+
+
+                         <span className='active-icon'> <FaStar /></span> <h3 className='reating-number'> 4.8</h3> 
+                    </div>
+                </div>
+
+                 </div>
+                
+                <h2 className='prodet-card-heading'>Caffe Mocha</h2>
+                <p className='prodet-card-datial'>Deep Foam</p>
+                <div className='price-cart-div'> <h2>$ 4.53</h2> <button>+</button></div>
+
+                </div>
+                 <div className='prodet-card'>
+
+                 <div className='prodet-card-img'>
+                <img src={img4} alt="" />
+                <div className='reating-div'>
+                   
+                    <div className='reating-div-contant'>
+
+
+                         <span className='active-icon'> <FaStar /></span> <h3 className='reating-number'> 4.8</h3> 
+                    </div>
+                </div>
+
+                 </div>
+                
+                <h2 className='prodet-card-heading'>Caffe Mocha</h2>
+                <p className='prodet-card-datial'>Deep Foam</p>
+                <div className='price-cart-div'> <h2>$ 4.53</h2> <button>+</button></div>
+
+                </div>
+                 <div className='prodet-card'>
+
+                 <div className='prodet-card-img'>
+                <img src={img4} alt="" />
+                <div className='reating-div'>
+                   
+                    <div className='reating-div-contant'>
+
+
+                         <span className='active-icon'> <FaStar /></span> <h3 className='reating-number'> 4.8</h3> 
+                    </div>
+                </div>
+
+                 </div>
+                
+                <h2 className='prodet-card-heading'>Caffe Mocha</h2>
+                <p className='prodet-card-datial'>Deep Foam</p>
+                <div className='price-cart-div'> <h2>$ 4.53</h2> <button>+</button></div>
+
+                </div>
+                 <div className='prodet-card'>
+
+                 <div className='prodet-card-img'>
+                <img src={img4} alt="" />
+                <div className='reating-div'>
+                   
+                    <div className='reating-div-contant'>
+
+
+                         <span className='active-icon'> <FaStar /></span> <h3 className='reating-number'> 4.8</h3> 
+                    </div>
+                </div>
+
+                 </div>
+                
+                <h2 className='prodet-card-heading'>Caffe Mocha</h2>
+                <p className='prodet-card-datial'>Deep Foam</p>
+                <div className='price-cart-div'> <h2>$ 4.53</h2> <button>+</button></div>
+
+                </div>
+                 <div className='prodet-card'>
+
+                 <div className='prodet-card-img'>
+                <img src={img4} alt="" />
+                <div className='reating-div'>
+                   
+                    <div className='reating-div-contant'>
+
+
+                         <span className='active-icon'> <FaStar /></span> <h3 className='reating-number'> 4.8</h3> 
+                    </div>
+                </div>
+
+                 </div>
+                
+                <h2 className='prodet-card-heading'>Caffe Mocha</h2>
+                <p className='prodet-card-datial'>Deep Foam</p>
+                <div className='price-cart-div'> <h2>$ 4.53</h2> <button>+</button></div>
+
+                </div>
+                 <div className='prodet-card'>
+
+                 <div className='prodet-card-img'>
+                <img src={img4} alt="" />
+                <div className='reating-div'>
+                   
+                    <div className='reating-div-contant'>
+
+
+                         <span className='active-icon'> <FaStar /></span> <h3 className='reating-number'> 4.8</h3> 
+                    </div>
+                </div>
+
+                 </div>
+                
+                <h2 className='prodet-card-heading'>Caffe Mocha</h2>
+                <p className='prodet-card-datial'>Deep Foam</p>
+                <div className='price-cart-div'> <h2>$ 4.53</h2> <button>+</button></div>
+
+                </div>
+                 <div className='prodet-card'>
+
+                 <div className='prodet-card-img'>
+                <img src={img4} alt="" />
+                <div className='reating-div'>
+                   
+                    <div className='reating-div-contant'>
+
+
+                         <span className='active-icon'> <FaStar /></span> <h3 className='reating-number'> 4.8</h3> 
+                    </div>
+                </div>
+
+                 </div>
+                
+                <h2 className='prodet-card-heading'>Caffe Mocha</h2>
+                <p className='prodet-card-datial'>Deep Foam</p>
+                <div className='price-cart-div'> <h2>$ 4.53</h2> <button>+</button></div>
+
+                </div> <div className='prodet-card'>
+
+                 <div className='prodet-card-img'>
+                <img src={img4} alt="" />
+                <div className='reating-div'>
+                   
+                    <div className='reating-div-contant'>
+
+
+                         <span className='active-icon'> <FaStar /></span> <h3 className='reating-number'> 4.8</h3> 
+                    </div>
+                </div>
+
+                 </div>
+                
+                <h2 className='prodet-card-heading'>Caffe Mocha</h2>
+                <p className='prodet-card-datial'>Deep Foam</p>
+                <div className='price-cart-div'> <h2>$ 4.53</h2> <button>+</button></div>
+
+                </div>
+                 <div className='prodet-card'>
+
+                 <div className='prodet-card-img'>
+                <img src={img4} alt="" />
+                <div className='reating-div'>
+                   
+                    <div className='reating-div-contant'>
+
+
+                         <span className='active-icon'> <FaStar /></span> <h3 className='reating-number'> 4.8</h3> 
+                    </div>
+                </div>
+
+                 </div>
+                
+                <h2 className='prodet-card-heading'>Caffe Mocha</h2>
+                <p className='prodet-card-datial'>Deep Foam</p>
+                <div className='price-cart-div'> <h2>$ 4.53</h2> <button>+</button></div>
+
+                </div>
+                 <div className='prodet-card'>
+
+                 <div className='prodet-card-img'>
+                <img src={img4} alt="" />
+                <div className='reating-div'>
+                   
+                    <div className='reating-div-contant'>
+
+
+                         <span className='active-icon'> <FaStar /></span> <h3 className='reating-number'> 4.8</h3> 
+                    </div>
+                </div>
+
+                 </div>
+                
+                <h2 className='prodet-card-heading'>Caffe Mocha</h2>
+                <p className='prodet-card-datial'>Deep Foam</p>
+                <div className='price-cart-div'> <h2>$ 4.53</h2> <button>+</button></div>
+
+                </div>
+                 <div className='prodet-card'>
+
+                 <div className='prodet-card-img'>
+                <img src={img4} alt="" />
+                <div className='reating-div'>
+                   
+                    <div className='reating-div-contant'>
+
+
+                         <span className='active-icon'> <FaStar /></span> <h3 className='reating-number'> 4.8</h3> 
+                    </div>
+                </div>
+
+                 </div>
+                
+                <h2 className='prodet-card-heading'>Caffe Mocha</h2>
+                <p className='prodet-card-datial'>Deep Foam</p>
+                <div className='price-cart-div'> <h2>$ 4.53</h2> <button>+</button></div>
+
+                </div>
+                 <div className='prodet-card'>
+
+                 <div className='prodet-card-img'>
+                <img src={img4} alt="" />
+                <div className='reating-div'>
+                   
+                    <div className='reating-div-contant'>
+
+
+                         <span className='active-icon'> <FaStar /></span> <h3 className='reating-number'> 4.8</h3> 
+                    </div>
+                </div>
+
+                 </div>
+                
+                <h2 className='prodet-card-heading'>Caffe Mocha</h2>
+                <p className='prodet-card-datial'>Deep Foam</p>
+                <div className='price-cart-div'> <h2>$ 4.53</h2> <button>+</button></div>
+
+                </div>
 
         </div>
 
