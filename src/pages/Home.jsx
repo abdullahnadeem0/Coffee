@@ -26,7 +26,7 @@ const Home = () => {
       </div>
 
     <div className='Buy-one-get'>
-       <img src={img3} alt="" />
+       {/* <img src={img3} alt="" /> */}
     </div>
 
 
