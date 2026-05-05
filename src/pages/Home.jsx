@@ -39,7 +39,13 @@ const Home = () => {
 
       </div>
 
+        <div className='prodet-all-div'>
+            <div className='prodet-card'></div>
+            <div className='prodet-card'></div>
+            <div className='prodet-card'></div>
+            <div className='prodet-card'></div>
 
+        </div>
 
  </div>
      
