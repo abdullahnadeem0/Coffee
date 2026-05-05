@@ -4,6 +4,7 @@ import "./Home.css"
 import { FaAngleDown } from "react-icons/fa";
 import { CiSearch } from "react-icons/ci";
 import img3 from "../imgs/Banner 1.png"
+import img4 from "../imgs/Image & Rating (1).png"
 import { HiOutlineAdjustmentsHorizontal } from "react-icons/hi2";
 
 const Home = () => {
@@ -40,7 +41,14 @@ const Home = () => {
       </div>
 
         <div className='prodet-all-div'>
-            <div className='prodet-card'></div>
+            <div className='prodet-card'>
+                
+                <img src={img4} alt="" />
+                <h2 className='prodet-card-heading'>Caffe Mocha</h2>
+                <p className='prodet-card-datial'>Deep Foam</p>
+                <div className='price-cart-div'> <h2>$ 4.53</h2> <button>+</button></div>
+
+                </div>
             <div className='prodet-card'></div>
             <div className='prodet-card'></div>
             <div className='prodet-card'></div>
