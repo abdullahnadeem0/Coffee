@@ -7,6 +7,11 @@ import img3 from "../imgs/Banner 1.png"
 import img4 from "../imgs/2.png"
 import { HiOutlineAdjustmentsHorizontal } from "react-icons/hi2";
 import { FaStar } from "react-icons/fa";
+import { GoHomeFill } from "react-icons/go";
+import { FaRegHeart } from "react-icons/fa";
+import { IoBagOutline } from "react-icons/io5";
+import { FaRegBell } from "react-icons/fa6";
+
 
 const Home = () => {
   return (
@@ -324,9 +329,20 @@ const Home = () => {
                 </div>
 
         </div>
+<div className='spaces'></div>
+
 
  </div>
-     
+     <div className='bottom-home-bar'>
+     <div className='bottom-bar-home'>
+         <div className='icon-bottom-bar-home'>
+            <span className='active-icon-bar menu-icon-bottom'><GoHomeFill /></span>
+            <span className='menu-icon-bottom'><FaRegHeart /></span>
+            <span className='menu-icon-bottom'><IoBagOutline /></span>
+            <span className='menu-icon-bottom'><FaRegBell /></span>
+         </div>
+     </div>
+     </div>
     </>
   )
 }

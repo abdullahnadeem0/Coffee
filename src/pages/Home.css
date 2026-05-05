@@ -231,7 +231,7 @@
     display: flex;
     margin-left: 13px;
     margin-top: 4px;
-    gap: 2px;
+    gap: 5px;
     align-items: center;
 
 }
@@ -242,4 +242,62 @@
 .reating-number{
     font-weight: 600;
     font-size: 12px;
+}.bottom-home-bar{
+    position: relative;
 }
+.bottom-bar-home{
+    width: 100%;
+    background-color:var(--white);
+    height: 90px;
+    position: fixed;
+    bottom: 0;
+ border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.spaces{
+    height: 100px;
+    width: 100%;
+}
+.icon-bottom-bar-home{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     color: var(--dark);
+     font-size: 30px;
+     margin-top: 20px;
+     
+}
+.icon-bottom-bar-home span{
+    cursor: pointer;
+}
+
+.active-icon-bar{
+    color: var(--primary);
+    position: relative;
+}
+ .active-icon-bar::before{
+    content: "";
+    height: 8px;
+    width: 30px;
+     background-color: var(--primary);
+     position: absolute;
+     margin-top: 32px;
+     margin-left: 1px;
+border-radius: 10px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
