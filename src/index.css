@@ -25,6 +25,10 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.filter-btns-All::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   scrollbar-width: none;
   font-family: 'Sora', sans-serif;

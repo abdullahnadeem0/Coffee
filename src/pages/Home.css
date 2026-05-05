@@ -128,3 +128,29 @@
     left: 0;
     z-index: -1;
 }
+.filter-btns-All{
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+    width: 100%;
+    justify-content: space-between;
+     
+     margin-top: 20px;
+     
+  
+}
+.filter-btns-All button{
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.filter-btns-All button.active{
+   background-color: var(--primary);
+   color: var(--white);
+
+}

@@ -31,6 +31,14 @@ const Home = () => {
        <h1 className='Buy-one-get-heading2'>  one FREE</h1>
     </div>
 
+      <div className='filter-btns-All'>
+         <button className='active filter-btns'>All Coffee</button>
+         <button className=' filter-btns'>Machiato</button>
+         <button className=' filter-btns'>Latte</button>
+         <button className=' filter-btns'>Americano</button>
+
+      </div>
+
 
 
  </div>
