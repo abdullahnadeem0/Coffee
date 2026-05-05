@@ -88,8 +88,43 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../imgs/Banner\ 1.png);
+    position: relative;
 }
-.Buy-one-get img{
-    height: 100%;
-    width: 100%;
+
+.Buy-one-get-heading{
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 2;
+}
+.Buy-one-get-heading2{
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: 10px;
+    margin-top: 10px;
+     position: relative; 
+    z-index: 987;
+}
+.Buy-one-get-heading2::before{
+    height: 25px;
+    content: "";
+    width: 147px;
+    background-color: black;
+    position: absolute;
+    top: 15px;
+    z-index: -777;
+
+
+}
+.Buy-one-get-heading::after{
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 190px;
+    background-color: black;
+    top: 15px;
+    left: 0;
+    z-index: -1;
 }

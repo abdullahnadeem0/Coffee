@@ -27,6 +27,8 @@ const Home = () => {
 
     <div className='Buy-one-get'>
        {/* <img src={img3} alt="" /> */}
+       <h1 className='Buy-one-get-heading'> Buy one get</h1>
+       <h1 className='Buy-one-get-heading2'>  one FREE</h1>
     </div>
 
 
