@@ -46,8 +46,24 @@ const Detail = () => {
                         <button>L</button>
                         </div>
                      </div>
+
+
+                   
          
           </div>
+                   <div className='spaces'></div>
+
+             <div className='Detail-bar'>
+
+                <div className='Price-prudet'>
+                  <p>Price</p>
+                  <h2> $ 4.53 </h2>
+                </div>
+
+                 <button className='Buy-Now'>Buy Now</button>
+
+                        
+                      </div>
 
      </>
   )

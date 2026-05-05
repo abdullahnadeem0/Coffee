@@ -74,7 +74,6 @@
 }
 .Description-para{
      font-size: 14px;
-     /* font-size: ; */
      color: var(--secondary);
      line-height: 24px;
 }
@@ -110,4 +109,39 @@
     font-weight: 600;
     font-size: 16;
     color: var(--dark);
+}
+
+.Detail-bar{
+     width: 100%;
+    background-color:var(--white);
+    height: 90px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+ border-top-left-radius: 20px;
+ justify-content: space-between;
+ padding: 20px;
+border-top-right-radius: 20px;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.Price-prudet p{
+    color: var(--secondary);
+    font-size: 14;
+    font-weight: 400;
+
+}
+.Price-prudet h2{
+    color: var(--primary);
+    font-size: 18;
+}
+.Buy-Now{
+    width: 217px;
+    height: 56px;
+    background-color: var(--primary);
+    font-size: 20px;
+    color: var(--white);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
 }
