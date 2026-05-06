@@ -1,7 +1,7 @@
 
 .Detail-navbar{
     display: flex;
-    padding: 30px;
+    padding: 20px;
     align-items: center;
     justify-content: space-between;
     color: var(--dark);

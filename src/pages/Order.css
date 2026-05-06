@@ -1,0 +1,229 @@
+
+.order-header{
+    display: flex;
+    align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      margin-top: 5px;
+      color:var(--dark);
+}
+.order-header-icon{
+    font-size: 20px;
+}
+.order-top-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.order-main-datal{
+    padding: 20px;
+         color: var(--dark);
+
+}
+.order-top-btn button{
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.Deliver-bnt{
+    background-color: var(--primary) !important;
+    color: var(--white);
+}
+.Delivery-Address{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.Jl-Kpg-Sutoyo{
+     font-size: 15px;
+    margin-top: 20px;
+}
+.Sutoyo-p{
+    font-size: 12px;
+     color: var(--secondary);
+     font-weight: 400;
+     margin-top: 5px;
+}
+
+.Edits-btn{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+.Edits-btn button {
+    padding: 5px 15px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #A2A2A2;
+    cursor: pointer;
+    display: flex;
+    align-items: center; gap: 5px;
+    background-color: transparent;
+    color: #A2A2A2;
+    
+}.fjf{
+    margin-top: 2px;
+    display: flex;
+
+}
+
+.order-page-divder{
+    margin-top: 15px;
+}
+.product-order-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.product-order-cart-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.product-order-cart-left img{
+    height:70px ;
+    width: 70px;
+}
+.product-order-cart-left-datile h2{
+font-size: 19px;
+margin-top: -10px;
+
+}
+
+.product-order-cart-left-datile p{
+    margin-top: 8px;
+}
+.product-order-cart-right{
+    display: flex;
+    gap: 10px;
+}
+.product-order-cart-right span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    text-align: center;
+    width: 30px;
+    background-color: white;
+border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.product-order-cart-right h3{
+    font-size: 23px;
+
+}
+.Discount-is-Applies{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+/* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+}
+.disconut-icon{
+    font-size: 25px;
+    margin-top: 5px;
+}
+.Discount-is-Applies-left{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.djewi{
+    margin-top: 4px;
+}
+.Discount-is-Applies-left h3{
+    font-weight: 500;
+    font-size: 14px;
+}
+.Payment-Summary-titel{
+    font-weight: 600;
+    font-size:16px ;
+    margin-top: 20px;
+}
+.Payment-Summary-Price{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 10px;
+}
+.myapp-paymat{
+    text-decoration: line-through;
+    font-weight: 400;
+    margin-right: 20px;
+}
+.order-sumbit-btn{
+     width: 100%;
+    background-color:var(--white);
+    height: 160px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    bottom: 0;
+ border-top-left-radius: 20px;
+ justify-content: space-between;
+ padding: 20px;
+border-top-right-radius: 20px;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.Cash-Wallet-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    color: var(--dark);
+}
+.Cash-Wallet-div-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.suhsdh{
+    font-size: 30px;
+    margin-top: 10px;
+    color: var(--primary);
+}
+.reui{
+    font-weight: 600;
+    color: var(--primary);
+}
+.fuhdf{
+    font-size: 30px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+.spacesj{
+    height: 150px;
+}
+.order-sumbit{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
